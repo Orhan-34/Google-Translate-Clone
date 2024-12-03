@@ -4,8 +4,8 @@ import { ActionType, type Action, type State, type Language, type FromLanguage }
 import { AUTO_DETECT_LANGUAGE } from '../utils/constants'
 
 const initialState: State = {
-  fromLanguage: 'auto',
-  toLanguage: 'en',
+  fromLanguage: 'en',
+  toLanguage: 'tr',
   text: '',
   translatedText: '',
   loading: false

@@ -4,7 +4,8 @@ export const SUPPORTED_LANGUAGES = {
   fr: 'Français',
   de: 'Deutsch',
   it: 'Italiano',
-  ja: '日本語'
+  ja: '日本語',
+  tr: 'Turkish',
 }
 
 export const AUTO_DETECT_LANGUAGE = 'auto'
@@ -15,5 +16,7 @@ export const VOICE_LANGUAGES = {
   fr: 'fr-FR',
   de: 'de-DE',
   it: 'it-IT',
-  ja: 'ja-JP'
+  ja: 'ja-JP',
+  tr: 'tr-TR',
 }
+
